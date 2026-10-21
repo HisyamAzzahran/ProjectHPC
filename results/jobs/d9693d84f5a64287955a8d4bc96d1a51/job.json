@@ -1,0 +1,82 @@
+{
+  "run_id": "d9693d84f5a64287955a8d4bc96d1a51",
+  "timestamp": "2026-10-20T16:13:35.176223+00:00",
+  "kind": "simulation",
+  "config": {
+    "algorithm": "midpoint",
+    "method": "mpi",
+    "workload_size": 100003,
+    "process_count": 2,
+    "seed": 0,
+    "chunk_size": 997
+  },
+  "status": "COMPLETED",
+  "owner_pid": 3944,
+  "owner_created": 1792512813.712945,
+  "error_message": null,
+  "result": {
+    "run_id": "ee40b300ddf94a4293bce487c2a09387",
+    "timestamp": "2026-10-20T16:13:35.550326+00:00",
+    "algorithm": "midpoint",
+    "method": "mpi",
+    "workload_size": 100003,
+    "workload_unit": "integration intervals",
+    "samples": 100003,
+    "processes": 2,
+    "process_count": 2,
+    "seed": 0,
+    "random_seed": null,
+    "chunk_size": 997,
+    "hits": null,
+    "inside_count": null,
+    "processed_samples": 100003,
+    "processed_units": 100003,
+    "pi_estimate": 3.141592653598126,
+    "absolute_error": 8.332889933626575e-12,
+    "compute_seconds": 0.0008725999996386236,
+    "execution_time": 0.4145473000007769,
+    "timing_scope": "end_to_end",
+    "status": "COMPLETED",
+    "error_message": null,
+    "worker_pids": [
+      14140,
+      21128
+    ],
+    "working_pids": [
+      14140,
+      21128
+    ],
+    "world_size": 2,
+    "returncode": 0,
+    "end_to_end_seconds": 0.4145473000007769,
+    "containment": "Windows Job Object + token/birth-verified process registry",
+    "cpu_mean_percent": 10.051124845485324,
+    "cpu_peak_percent": 0.9991140016888044,
+    "peak_rss_mb": 66.88671875,
+    "monitoring_samples": 3
+  },
+  "elapsed_seconds": 0.42091099999925063,
+  "resources": {
+    "elapsed_seconds": 0.00025009999990288634,
+    "app_cpu_percent": 0.0,
+    "app_rss_mb": 10.26171875,
+    "tree_process_count": 2,
+    "system_cpu_percent": 25.0,
+    "system_memory_percent": 49.0
+  },
+  "process_tree": [
+    {
+      "pid": 4840,
+      "parent_pid": 3944,
+      "name": "mpiexec.exe"
+    },
+    {
+      "pid": 22032,
+      "parent_pid": 4840,
+      "name": "conhost.exe"
+    }
+  ],
+  "child_pid": 4840,
+  "finished_at": "2026-10-20T16:13:35.605885+00:00",
+  "purpose": "Executed integration verification; real numerical measurement"
+}

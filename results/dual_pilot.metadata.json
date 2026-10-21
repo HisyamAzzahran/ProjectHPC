@@ -1,0 +1,73 @@
+{
+  "timestamp_utc": "2026-10-20T16:07:11.228675+00:00",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "interpreter": "D:\\Project Kuliah\\HPC-Monte-Carlo\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "architecture": "AMD64",
+  "logical_cpus": 12,
+  "available_logical_cpus": 12,
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "mpi4py": "4.1.2",
+    "impi-rt": "2021.18.1",
+    "streamlit": "1.66.0",
+    "plotly": "7.1.0",
+    "psutil": "7.2.2",
+    "pytest": "9.1.1"
+  },
+  "mpi_launcher": "D:\\Project Kuliah\\HPC-Monte-Carlo\\.venv\\Library\\bin\\mpiexec.exe",
+  "hardware": {
+    "cpu_name": "Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz",
+    "ProductName": "Windows 10 Home Single Language",
+    "DisplayVersion": "26H2",
+    "CurrentBuildNumber": "26300",
+    "physical_cores": 6,
+    "ram_bytes": 34114936832
+  },
+  "thread_environment": {
+    "OMP_NUM_THREADS": null,
+    "MKL_NUM_THREADS": null,
+    "OPENBLAS_NUM_THREADS": null
+  },
+  "mpi_library": "Intel(R) MPI Library 2021.18.1 for Windows* OS",
+  "benchmark_arguments": {
+    "algorithms": [
+      "monte_carlo",
+      "midpoint"
+    ],
+    "samples": [
+      100000
+    ],
+    "processes": [
+      1,
+      2
+    ],
+    "repeats": 3,
+    "warmups": 0,
+    "seed": 2026,
+    "chunk_size": 100000,
+    "methods": [
+      "sequential",
+      "multiprocessing",
+      "mpi"
+    ],
+    "mpiexec": null,
+    "timeout": 120,
+    "allow_oversubscribe": false,
+    "output": "results\\dual_pilot.csv"
+  },
+  "selected_mpi_launcher": "D:\\Project Kuliah\\HPC-Monte-Carlo\\.venv\\Library\\bin\\mpiexec.exe",
+  "status": "complete",
+  "monitoring": "100 ms psutil snapshots plus token/birth-verified rank registry and final worker CPU readings; mean CPU=accounted CPU seconds/E2E/logical CPUs; RSS sums shared pages",
+  "timing": "perf_counter: launch through termination/cleanup; monitoring enabled consistently in all methods",
+  "child_thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "measured_runs": 30,
+  "warmup_runs": 0
+}

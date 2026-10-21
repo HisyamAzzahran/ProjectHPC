@@ -1,0 +1,41 @@
+{
+  "run_id": "0791f306ed1440e79378f796945afc22",
+  "timestamp": "2026-10-20T16:13:35.100363+00:00",
+  "algorithm": "monte_carlo",
+  "method": "multiprocessing",
+  "workload_size": 100003,
+  "workload_unit": "random samples",
+  "samples": 100003,
+  "processes": 2,
+  "process_count": 2,
+  "seed": 2026,
+  "random_seed": 2026,
+  "chunk_size": 997,
+  "hits": 78431,
+  "inside_count": 78431,
+  "processed_samples": 100003,
+  "processed_units": 100003,
+  "pi_estimate": 3.1371458856234313,
+  "absolute_error": 0.0044467679663617865,
+  "compute_seconds": 0.022014099999069003,
+  "execution_time": 0.6735583999998198,
+  "timing_scope": "end_to_end",
+  "status": "COMPLETED",
+  "error_message": null,
+  "worker_pids": [
+    8536,
+    13492
+  ],
+  "working_pids": [
+    8536,
+    13492
+  ],
+  "world_size": null,
+  "returncode": 0,
+  "end_to_end_seconds": 0.6735583999998198,
+  "containment": "Windows Job Object + token/birth-verified process registry",
+  "cpu_mean_percent": 8.699134328963261,
+  "cpu_peak_percent": 12.671683205086453,
+  "peak_rss_mb": 107.59765625,
+  "monitoring_samples": 5
+}

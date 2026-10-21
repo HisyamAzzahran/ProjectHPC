@@ -1,0 +1,28 @@
+.venv/
+.venv-repro/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+logs/
+results/jobs/.execution.lock
+results/jobs/*/cancel.request
+# Real CSV/JSON results and PNG figures are intentionally retained.
+
+
+# Local credentials and source archive
+.env
+.env.*
+.streamlit/secrets.toml
+HPC-Monte-Carlo-Starter.zip

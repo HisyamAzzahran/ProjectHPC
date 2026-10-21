@@ -1,0 +1,79 @@
+{
+  "run_id": "96d98c8c3ab94fa0b749302b0ef8f795",
+  "timestamp": "2026-10-20T16:24:56.248068+00:00",
+  "kind": "simulation",
+  "config": {
+    "algorithm": "monte_carlo",
+    "method": "sequential",
+    "workload_size": 1000000,
+    "process_count": 1,
+    "seed": 2026,
+    "chunk_size": 100000
+  },
+  "status": "COMPLETED",
+  "owner_pid": 20228,
+  "owner_created": 1792513475.8078957,
+  "error_message": null,
+  "result": {
+    "run_id": "2c23f8ae0dff4e52957df628a97c15ec",
+    "timestamp": "2026-10-20T16:24:56.639682+00:00",
+    "algorithm": "monte_carlo",
+    "method": "sequential",
+    "workload_size": 1000000,
+    "workload_unit": "random samples",
+    "samples": 1000000,
+    "processes": 1,
+    "process_count": 1,
+    "seed": 2026,
+    "random_seed": 2026,
+    "chunk_size": 100000,
+    "hits": 786075,
+    "inside_count": 786075,
+    "processed_samples": 1000000,
+    "processed_units": 1000000,
+    "pi_estimate": 3.1443,
+    "absolute_error": 0.002707346410206757,
+    "compute_seconds": 0.029211900000518654,
+    "execution_time": 0.3659050999995088,
+    "timing_scope": "end_to_end",
+    "status": "COMPLETED",
+    "error_message": null,
+    "worker_pids": [
+      16152
+    ],
+    "working_pids": [
+      16152
+    ],
+    "world_size": null,
+    "returncode": 0,
+    "end_to_end_seconds": 0.3659050999995088,
+    "containment": "Windows Job Object + token/birth-verified process registry",
+    "cpu_mean_percent": 5.693643880164912,
+    "cpu_peak_percent": 5.5618203900486725,
+    "peak_rss_mb": 42.5078125,
+    "monitoring_samples": 3
+  },
+  "elapsed_seconds": 0.3803221999987727,
+  "resources": {
+    "elapsed_seconds": 0.0006171999993966892,
+    "app_cpu_percent": 0.0,
+    "app_rss_mb": 10.3515625,
+    "tree_process_count": 2,
+    "system_cpu_percent": 33.3,
+    "system_memory_percent": 51.0
+  },
+  "process_tree": [
+    {
+      "pid": 4192,
+      "parent_pid": 20228,
+      "name": "python.exe"
+    },
+    {
+      "pid": 7532,
+      "parent_pid": 4192,
+      "name": "conhost.exe"
+    }
+  ],
+  "child_pid": 4192,
+  "finished_at": "2026-10-20T16:24:56.670476+00:00"
+}
